@@ -1,7 +1,7 @@
 import fotoMile from '../assets/img/fondoMile.svg'
-import iconoPercha from '../assets/img/perchaItem.png'
-import iconoCalendario from '../assets/img/calendarioItem.png'
-import IconoUbicacion from '../assets/img/locationItem.png'
+import iconoPercha from '../assets/img/percha.png'
+import iconoCalendario from '../assets/img/calendar.png'
+import IconoUbicacion from '../assets/img/locationM.png'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -29,7 +29,7 @@ function Home() {
           <Row>
             <Col xs={12} xl={6}>
               <div className="text-center p-4">
-                <h1 className="Loubag display-1 mb-3">XV AÑOS</h1>
+                <h1 className="Loubag display-1 mb-3 ">XV AÑOS</h1>
                 <h2 className="Halimun display-5">Milena</h2>
                 <p className="Montserrat-regular text-sm ">Te invito a compartir este día conmigo.</p>
               </div>
