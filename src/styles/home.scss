@@ -1,10 +1,10 @@
 .fondo {
-  background-image: url('../assets/img/fond.svg');
+  background-image: url('../assets/img/fondo.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  color: #9b6c18;
+  color: #cfad5b;
 
   @media (min-height: 1200px) {
     height: 100%; // Cambia a 100% en pantallas más grandes (xl)
@@ -92,15 +92,15 @@
 }
 
 .colorBoton {
-  background-color: #9b6c18 !important;
-  border-color: #9b6c18 !important;
+  background-color: #cfad5b !important;
+  border-color: #cfad5b !important;
   &:hover {
-    background-color: #9b6c18 !important;
-    border-color: #9b6c18 !important;
+    background-color: #cfad5b !important;
+    border-color: #cfad5b !important;
   }
   &:active {
-    background-color: #9b6c18 !important;
-    border-color: #9b6c18 !important;
+    background-color: #cfad5b !important;
+    border-color: #cfad5b !important;
   }
 }
 
