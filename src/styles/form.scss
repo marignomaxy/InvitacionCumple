@@ -1,0 +1,16 @@
+.colorSwitch {
+  display: flex !important;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    border-color: #cfad5b !important;
+    margin-bottom: 10px;
+
+    &:checked {
+      background-color: #cfad5b !important;
+      border-color: #cfad5b !important;
+    }
+  }
+}

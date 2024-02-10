@@ -1,0 +1,108 @@
+.fondo {
+  background-image: url('../assets/img/fondo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  color: #cfad5b;
+}
+
+@font-face {
+  font-family: 'Loubag';
+  src: url('../assets/fonts/Loubag-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-regular';
+  src: url('../assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Halimun';
+  src: url('../assets/fonts/HALIMUN.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Abril';
+  src: url('../assets/fonts/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+.Loubag {
+  font-family: 'Loubag', sans-serif;
+}
+
+.Abril {
+  font-family: 'Abril', sans-serif !important;
+}
+
+.cambioFS200 {
+  font-size: 200% !important;
+}
+
+.Montserrat-bold {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+.Montserrat-regular {
+  font-family: 'Montserrat-regular', sans-serif;
+}
+
+.Halimun {
+  font-family: 'Halimun', sans-serif;
+}
+
+.fotoMile {
+  max-height: 100%; /* Cambiar a un valor adecuado */
+  width: auto;
+  height: auto;
+  max-height: 650px !important;
+}
+
+.containerFoto {
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.tamañoIconos {
+  height: 55%;
+  max-height: 150px;
+}
+
+.numero2 {
+  font-size: 80px;
+}
+
+/* Estilos para tamaños de pantalla pequeños (y más grandes) */
+.azedinha-container {
+  margin-left: 0;
+}
+
+.marginTextoTitulo {
+  margin-right: 5%;
+}
+
+.colorBoton {
+  background-color: #cfad5b !important;
+  border-color: #cfad5b !important;
+  &:hover {
+    background-color: #cfad5b !important;
+    border-color: #cfad5b !important;
+  }
+  &:active {
+    background-color: #cfad5b !important;
+    border-color: #cfad5b !important;
+  }
+}
+
+/* Estilos para tamaños de pantalla medianos y grandes */
+@media (min-width: 768px) {
+  .azedinha-container {
+    margin-left: 3rem; /* Puedes ajustar este valor según sea necesario */
+  }
+}
